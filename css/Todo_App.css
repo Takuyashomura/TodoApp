@@ -1,0 +1,29 @@
+.center{
+    width: 50%;
+    margin: 0 auto;
+}
+#time{
+    background: #000000;
+    text-align: center;
+    border-radius: 5px;
+}
+.now-time{
+    font-size: 60px;
+    font-family: monospace;
+    color: #33ff66;
+}
+#todo-container{
+    list-style: none;
+    font-size: 20px;
+}
+#todo-container > li{
+    margin-bottom: 20px;
+}
+.delete{
+    margin-left: 50px; 
+}
+.todo-area{
+    border: solid 1px;
+    width: 500px;
+    margin-top: 20px;
+}
